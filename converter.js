@@ -12,17 +12,18 @@ document.getElementById('btn').addEventListener('click',conversion);
 
 function convert(from, to, inputVal) {
     result = "";
-switch (key) {
-    case value:
+switch ("" + from + to) {
+    case "12":
         result = fahrenheitToCelsius(inputVal)
         break;
-    case value1:
+    case "13":
         result = fahrenheitToKelvin( inputVal);
         break;    
-    case value2:
+    case "21":
         result = celsiusToKelvin( inputVal);
         break;
     default:
+        result = inputVal;
         break;
 }
 }
